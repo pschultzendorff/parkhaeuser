@@ -20,7 +20,9 @@ JSON-Schema:
 
 Requirements:
 -Für Düsseldorf: from bs4 import BeautifulSoup
-                 from selenium import webdriver
+
+ from selenium import webdriver
+                 
  und dazu geckodriver (kann auch zu Chrome geändert werden, falls das besser ist)
 
 TODO:
