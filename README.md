@@ -2,34 +2,21 @@ Scrapet die freien Plätze in Parkhäusern von den Seiten der jeweiligen Städte
 
 JSON-Schema:
 
-{
-    "date": "2020-3-22",
-    
-    "time": "17:28",
-    
-    "list": {
-    
-        "Altstadt": {
-        
-            "total": 2404,
-            
-            "empty": 2241,
-            
-            "occupation": 0.06780366056572379
-            
+    {
+        "date": "2020-3-22",    
+        "time": "17:28",    
+        "list": {    
+            "Altstadt": {            
+                "total": 2404,            
+                "empty": 2241,
+                "occupation": 0.06780366056572379
+            },
+        ...(weitere Viertel)...
         },
-        
-...(weitere Viertel)...
-
-    },
-    
-    "total": 10914,
-    
-    "empty": 9928,
-    
-    "occupation": 0.09034267912772585
-    
-}
+        "total": 10914,
+        "empty": 9928,
+        "occupation": 0.09034267912772585
+        }
 
 Requirements:
 -Für Düsseldorf: from bs4 import BeautifulSoup
